@@ -1,5 +1,5 @@
 <center> <h1>0x00. AirBnB clone - The console</h1> </center>
-<h4>Group project		Python		OOp</h4>
+<h4>Group project</h4>		<h4>Python</h4>		<h4>OOp</h4>
 
 <center> <h1>HBNB - The Console</h1> </center>
 
