@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""Create a class city"""
+""" Class City """
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """Class city inherits all the properties
-    of  BaseModel"""
-
+    """ City class that inherits BaseModel """
     state_id = ""
     name = ""
