@@ -69,7 +69,7 @@ class TestPlace(unittest.TestCase):
         self.assertTrue(hasattr(bn3, "price_by_night"))
         self.assertTrue(hasattr(bn3, "latitude"))
         self.assertTrue(hasattr(bn3, "longitude"))
-        self.assertTrue(hasattr(pm3, "amenity_ids"))
+        self.assertTrue(hasattr(bn3, "amenity_ids"))
 
         self.assertIsInstance(bn3.city_id, str)
         self.assertIsInstance(bn3.user_id, str)
