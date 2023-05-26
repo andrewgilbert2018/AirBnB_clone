@@ -1,12 +1,11 @@
 #!/usr/bin/python3
-"""Creat a Class Place that inherits from BaseModel"""
+""" Class Place """
+
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """Class Place inherits all the properties
-	of BaseModel"""
-
+    """ Place class that inherits BaseModel """
     city_id = ""
     user_id = ""
     name = ""
@@ -17,4 +16,4 @@ class Place(BaseModel):
     price_by_night = 0
     latitude = 0.0
     longitude = 0.0
-    amenity_ids = list()
+    amenity_ids = []
